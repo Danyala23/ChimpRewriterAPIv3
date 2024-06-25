@@ -1,0 +1,26 @@
+body {
+/*	background-color: #f6f3f3;*/
+	font-family: "Arial", "Tahoma", "Verdana", sans-serif;
+}
+
+.wrapper {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 10%;
+}
+
+header {
+	width: 60%;
+	height: 20%;
+	margin: 4% auto;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+
+}
+a:hover {
+	color: black;
+	/*#5EB2D1*/
+}

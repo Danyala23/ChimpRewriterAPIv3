@@ -1,0 +1,3 @@
+2014-03-05 10:18:19,505 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 1552
+2014-03-05 10:22:39,276 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 1592
+2014-03-05 10:24:19,120 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 1578

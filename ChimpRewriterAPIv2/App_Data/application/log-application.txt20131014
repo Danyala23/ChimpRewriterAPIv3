@@ -1,0 +1,22 @@
+2013-10-14 20:30:10,607 ERROR APIUsers - lookupUserInDatabase failed with email: jamesroseaffiliate@gmail.com
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at APIUsers.lookupUserInDatabase(String email) in d:\Visual Studio\Visual Studio 2010\Projects\SpinChimpAPINewDB\SpinChimpAPI\App_Code\APIUsers.cs:line 192
+2013-10-14 20:31:26,371 ERROR APIUsers - lookupUserInDatabase failed with email: jamesroseaffiliate@gmail.com
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at APIUsers.lookupUserInDatabase(String email) in d:\Visual Studio\Visual Studio 2010\Projects\SpinChimpAPINewDB\SpinChimpAPI\App_Code\APIUsers.cs:line 192

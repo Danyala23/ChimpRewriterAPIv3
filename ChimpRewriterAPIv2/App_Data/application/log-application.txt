@@ -1,0 +1,25 @@
+2024-06-25 00:14:07,833 ERROR ChimpRewriterAPIv3.CRAPIService - Error during login:
+MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   at MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at ChimpRewriterAPIv3.CRAPIService.Login(String email, String password) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\CRAPIService.svc.cs:line 158
+2024-06-25 00:14:15,385 ERROR ChimpRewriterAPIv3.CRAPIService - Error during login:
+MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   at MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at ChimpRewriterAPIv3.CRAPIService.Login(String email, String password) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\CRAPIService.svc.cs:line 158
+2024-06-25 00:14:57,227 ERROR ChimpRewriterAPIv3.CRAPIService - Error during login:
+MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   at MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 i)
+   at ChimpRewriterAPIv3.CRAPIService.Login(String email, String password) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\CRAPIService.svc.cs:line 158
+2024-06-25 00:17:21,493 ERROR ChimpRewriterAPIv3.CRAPIService - Error during login:
+ChimpRewriterAPIv3.API.SaltParseException: Invalid salt version
+   at ChimpRewriterAPIv3.API.BCrypt.HashPassword(String input, String salt) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\App_Code\API\APIUsers.cs:line 1148
+   at ChimpRewriterAPIv3.API.BCrypt.Verify(String text, String hash) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\App_Code\API\APIUsers.cs:line 1223
+   at ChimpRewriterAPIv3.API.Password.Check(String password, String storedHash) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\App_Code\API\APIUsers.cs:line 574
+   at ChimpRewriterAPIv3.CRAPIService.VerifyPasswordHash(String password, String hashedPassword) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\CRAPIService.svc.cs:line 204
+   at ChimpRewriterAPIv3.CRAPIService.Login(String email, String password) in C:\Users\Danyal Ahmad\Desktop\Projects\chimp-rewriter-api-master\chimp-rewriter-api-master\chimp-rewriter-api-master\ChimpRewriterAPIv2\CRAPIService.svc.cs:line 165

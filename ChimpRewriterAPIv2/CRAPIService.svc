@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ChimpRewriterAPIv3.CRAPIService" CodeBehind="CRAPIService.svc.cs" Factory="ChimpRewriterAPIv3.MyWebServiceHostFactory" %>

@@ -1,0 +1,2 @@
+2024-06-25 00:14:03,595 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 6266
+2024-06-25 00:16:11,514 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 5698

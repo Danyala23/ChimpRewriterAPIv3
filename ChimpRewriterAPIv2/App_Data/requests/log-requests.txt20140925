@@ -1,0 +1,3 @@
+2014-09-25 13:45:00,138 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 15746
+2014-09-25 13:46:40,353 INFO RequestsLogger - User ID: 0;IP: ;Aid: 0;Method: AppLoad;WordCount: 0;ProcessingTime: 14454
+2014-09-25 13:47:23,571 INFO RequestsLogger - User ID: 1688;IP: ::1;Aid: 100;Method: GlobalSynonyms;WordCount: 71;ProcessingTime: 5436
